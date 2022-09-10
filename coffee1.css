@@ -1,0 +1,153 @@
+
+header{
+    background-color: beige;
+    height: 100px;
+    width: 100%;
+    /* position: sticky; */
+    top: 5px;
+}
+.himage{
+    position: absolute;
+    left: 40px;
+}
+.himage img{
+    height: 100px;
+    width: 150px;
+}
+.title{
+    margin-left: 200px;
+    color:darkkhaki;
+    font-size: 30px;
+}
+.hlinks{
+    text-align: end;
+    position: absolute;
+    left: 1065px;
+    top: 113px;
+}
+.hlinks a{
+    color:darkkhaki;
+}
+.hlinks a:hover{
+    color:darkgoldenrod;
+    font-size: 20px;
+    
+}
+body{
+    background-color: rgb(186, 179, 230);
+    background-image: url(./images/wall3.jpg);
+    background-size: cover;
+    /* background-image:url(./images/coffee\ bg.jpg); */
+}
+.body1{
+    height: 900px;
+    width: 100%;
+    /* border: 2px white solid; */
+    margin-top: 30px;
+    position: relative;
+}
+.table{
+    height: 350px;
+    width: 550px;
+    border: 3px white solid;
+    background-color: beige;
+    border-radius: 30px;
+
+}
+.table-1{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.table-2{
+    position: absolute;
+    top: 40px;
+    left: 700px;
+}
+.table-3{
+    position: absolute;
+    top: 450px;
+    left: 40px;
+}
+.table-4{
+    position: absolute;
+    top: 450px;
+    left: 700px;
+}
+.table:hover{
+    background-color: bisque;
+    height: 360px;
+    width: 560px;
+}
+.table img{
+    height: 250px;
+    width: 470px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    
+}
+.t1text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    background-color:rgb(185, 192, 199);
+    width: 100%;
+    height: 100px;
+}
+.sticky {
+    /* background-color: white; */
+    width: 200px;
+    height: 200px;
+    position: sticky;
+    top: 10px;
+    left: 1150px;
+    color:saddlebrown;
+    text-align: center;
+    /* border: 2px dotted black; */
+    padding: 10px;
+    /* margin-top: 100px; */
+}
+#qbutton{
+    background-color: white;
+    border-radius: 20px;
+}
+#qbutton:hover{
+    font-size: small;
+    background-color: bisque;
+}
+.sticky label{
+    text-align: center;
+    font-size: large;
+    background-color: white;
+    border: 5px beige solid;
+}
+.sticky h3{
+    background-color: white;
+}
+.footer{
+    background-color: rgb(185, 192, 199);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    font-size: 25px;
+}
+.footer1{
+    position: absolute;
+    left: 100px;
+}
+.footer2{
+    left: 400px;
+    position: absolute;
+}
+.footer a{
+    color: black;
+}
+.footer img{
+    height: 150px;
+    width: 200px;
+    margin-left: 900px;
+    margin-top: 30px;
+}
